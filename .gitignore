@@ -1,0 +1,95 @@
+# .gitignore para projetos Python — ignora arquivos/desnecessários comuns
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+#ignorar o venv
+venv/
+
+# C extensions
+*.so
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+wheelhouse/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+.Python
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+.cache/
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local configuration / secrets
+*.env
+.env
+.env.*.local
+instance/
+local_settings.py
+.settings
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Sphinx
+docs/_build/
+
+# PyInstaller
+*.spec
+*.manifest
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Logs, databases, temp files
+*.log
+*.sql
+*.sqlite3
+*.bak
+*~
+.DS_Store
+
+# Misc
+coverage.xml
+.prof
+.ropeproject/./venv    
